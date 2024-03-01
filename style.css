@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-y: hidden; */
+}
+
+
+
+.hideThis{
+    display: none;
+}
+
+.car{
+    position: absolute;
+    left: 20px;
+    /* bottom: 80px ; */
+    padding: 50px 23px; 
+    background-color: red;
+    border-radius: 30%;
+    overflow:  hidden;
+}
+.enemy{
+    position: absolute;
+    left: 20px ;
+    top: 20px ;
+    padding: 50px 23px; 
+    background-color: red;
+    border-radius: 30%;
+    overflow:  hidden;
+
+}
+
+.divider{
+    background-color: white;
+    position: absolute;
+    left: 143px;
+    width: 10px;
+    height: 80px;
+}
+
+.raceScreen{
+    position: relative;
+    margin: auto;
+    background-color: black;
+    width: 300px;
+    height: 100vh;
+    overflow: hidden;
+}
